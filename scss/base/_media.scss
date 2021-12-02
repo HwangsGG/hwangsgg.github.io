@@ -150,6 +150,53 @@
             }
         }
     }
+    .catalog {
+        padding: 20px;
+        &__tabs {
+            margin-top: 17px;
+            flex-direction: row;
+        }
+        &__tab {
+            width: 200px;
+            height: 38px;
+            font-size: 16px;
+            line-height: 38px;
+            margin: 5px;
+        }
+        &__content {
+            margin-top: 20px;
+        }
+    }
+    .carousel {
+        display: none;
+    }
+    .feedback {
+        padding: 15px 0;
+        &__item {
+            margin-top: 15px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__photo {
+            width: 138px;
+            height: 138px;
+        }
+        &__text {
+            padding: 0 30px;
+        }
+        &__subtitle {
+            margin-top: 15px;
+            text-align: center;
+        }
+        &__count {
+            text-align: center;
+        }
+        &__descr {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
 }
 @media (max-width: 575px) {
     .header {
@@ -257,6 +304,52 @@
             span {
                 font-size: 13px;
             }
+        }
+    }
+    .catalog {
+        padding: 20px;
+        &__tabs {
+            margin-top: 17px;
+            flex-direction: column;
+        }
+        &__tab {
+            width: 200px;
+            height: 38px;
+            font-size: 16px;
+            line-height: 38px;
+            margin: 5px;
+        }
+        &__content {
+            margin-top: 20px;
+        }
+    }
+    .carousel {
+        display: none;
+    }
+    .feedback {
+        &__item {
+            margin-top: 15px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__photo {
+            width: 138px;
+            height: 138px;
+        }
+        &__text {
+            padding: 0 30px;
+        }
+        &__subtitle {
+            margin-top: 15px;
+            text-align: center;
+        }
+        &__count {
+            text-align: center;
+        }
+        &__descr {
+            font-size: 14px;
+            line-height: 20px;
         }
     }
 }
